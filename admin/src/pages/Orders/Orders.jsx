@@ -6,7 +6,7 @@ import axios from "axios";
 import {assets} from "../../assets/assets";
 
 const Orders = () => {
-  const url = "http://localhost:4000";
+  const url = "http://ec2-65-0-125-131.ap-south-1.compute.amazonaws.com:4000";
   const [orders, setOrders] = useState([]);
 
   const fetchAllOrders = async () => {
